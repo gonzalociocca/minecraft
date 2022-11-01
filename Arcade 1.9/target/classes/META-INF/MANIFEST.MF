@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: MySQLManager-Latest.jar LibDisguises-Latest.jar spigot-1.9
+ .jar
+

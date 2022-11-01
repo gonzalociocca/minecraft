@@ -1,0 +1,14 @@
+wins: 9
+kills: 74
+deaths: 112
+gamesPlayed: 120
+score: 402
+blocksPlaced: 2114
+killDeath: 0.6607142857142857
+glasscolor: normal
+effect: normal
+traileffect: normal
+name: pitela
+balance: 0
+permissions:
+- swr.kit.free.talador

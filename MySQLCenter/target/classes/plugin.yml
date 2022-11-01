@@ -1,0 +1,8 @@
+name: MineUltra
+main: me.gonzalociocca.mineultra.MineUltra
+version: 1.0
+commands:
+   mu:
+      description: Comandos de MineUltra.
+      usage: /<command>
+      aliases: [ban, kick, unban, vanish]

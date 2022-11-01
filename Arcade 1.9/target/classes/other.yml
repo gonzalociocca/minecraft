@@ -1,0 +1,180 @@
+GameConfig:
+    shop: "MINEULTRA.COM/SHOP"
+    web: "MINEULTRA.COM"
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 3200L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&f&lStarting in &a&l%s"
+    start: "&a&lGood Game!"
+    progress: "&f&lIn progress"
+    waiting: "&a&lWaiting for players.."
+    max: "&eMax Players"
+    min: "&eMin Players"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    games:
+       - SWTeams
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+messages:
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a&lJoined &b&l%s"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9%s &eHas left the game"
+motd:
+   stateonly: true;
+   starting: "&a&lStarting in %s"
+   recruiting: "&a&lRecruiting.."
+   inprogress: "&f&lIn progress"
+titles:
+    death: "You where killed by"
+vip:
+    name: "VIP"
+lobby: "lobby"
+chests:
+    normal:
+      - "276,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "261,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "327,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "267,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "264,5,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "264,5,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "5,25,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "4,25,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "258,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "344,5,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "332,5,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "58,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "262,10,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "307,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "310,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "308,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "313,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "384,5,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "116,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "322,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "282,1,0,name:&a&l%name,DAMAGE_ALL:1"
+    medium:
+      - "276,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "261,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "327,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "267,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "264,5,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "264,5,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "5,25,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "4,25,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "258,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "344,5,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "332,5,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "58,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "262,10,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "307,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "310,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "308,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "313,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "384,5,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "116,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "322,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "282,1,0,name:&a&l%name,DAMAGE_ALL:2"
+    opchest:
+      - "276,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "261,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "327,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "267,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "264,5,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "264,5,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "5,25,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "4,25,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "258,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "344,5,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "332,5,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "58,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "262,10,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "307,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "310,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "308,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "313,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "384,5,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "116,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "322,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "282,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+scoreboard:
+    border1: "&e&m&l*------*&r"
+    border2: "&a&m&l*------*&r"
+    border3: "&c&m&l*------*&r"
+    map: "&a&lMap:"
+kits:
+    knight:
+        name: "Knight"
+        price: 0
+        desc:
+          - "The less common of the warriors"
+        perks:
+          - "null"
+    archer:
+        name: "Archer"
+        price: 1000
+        desc:
+          - "Bet the enemys with your bow"
+          - "and kill them"
+        perks:
+          - "Ropped Arrow"
+    flame:
+        name: "Flame"
+        price: 3000
+        desc:
+          - "A warrior in the fight"
+        perks:
+          - "Flame Dash"
+          - "Inferno"
+    monster:
+        name: "Monster"
+        price: 3000
+        desc:
+          - "An assassin without heart"
+        perks:
+          - "Speed"
+          - "Food"
+tips:
+    - "The last team standing wins the game"
+    - "play with your team"
+    - "battle, its all that you can do"
+mapconfig:
+    folder: "maps/%game"
+kitprices:
+    knight: 0
+    archer: 1000
+    flame: 1500
+    monster: 3000
+    spider: 3000
+lobby:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -74
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60

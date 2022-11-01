@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MySQLManager">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MySQLCenter/target/MySQLManager.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

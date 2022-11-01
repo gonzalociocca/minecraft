@@ -1,0 +1,321 @@
+[18.10.2016 21:30:49] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.10.2016 21:30:49] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3%
+[18.10.2016 21:30:49] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[18.10.2016 21:30:52] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.10.2016 21:30:52] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3%
+[18.10.2016 21:30:52] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[18.10.2016 21:30:54] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.10.2016 21:30:54] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3%
+[18.10.2016 21:30:54] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[19.10.2016 19:08:31] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[19.10.2016 19:08:31] String checked: /warp
+[19.10.2016 19:08:31] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[19.10.2016 21:51:58] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[19.10.2016 21:51:58] String checked: /tpaccept
+[19.10.2016 21:51:58] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[22.10.2016 16:03:37] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[22.10.2016 16:03:37] String checked: /tpa lucca
+[22.10.2016 16:03:37] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[22.10.2016 23:19:08] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[22.10.2016 23:19:08] String checked: denada
+[22.10.2016 23:19:08] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[25.10.2016 23:02:22] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[25.10.2016 23:02:22] String checked: /tpaccept
+[25.10.2016 23:02:22] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[26.10.2016 14:53:13] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[26.10.2016 14:53:13] String checked: pero me debuelves luego
+[26.10.2016 14:53:13] Regex: :-\(
+[28.10.2016 18:52:12] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[28.10.2016 18:52:12] String checked: /register maicolsevasmaicolsevas
+[28.10.2016 18:52:12] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[29.10.2016 19:21:40] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[29.10.2016 19:21:40] String checked: 1804,0 63,0 1104,0 Boss Jefe Cordenadas
+[29.10.2016 19:21:40] Regex: \:star\:
+[30.10.2016 16:42:13] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[30.10.2016 16:42:13] String checked: /r 1669 1904 ,1109 1335 , 1428 1804 , 1160 1754
+[30.10.2016 16:42:13] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[30.10.2016 16:57:51] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[30.10.2016 16:57:51] String checked: /r 1669 1904 ,1109 1335 , 1428 1804 , 1160 1754
+[30.10.2016 16:57:51] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[30.10.2016 18:04:05] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[30.10.2016 18:04:05] String checked: t
+[30.10.2016 18:04:05] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[30.10.2016 20:35:20] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[30.10.2016 20:35:20] String checked: justo el que queria
+[30.10.2016 20:35:20] Regex: :\)
+[31.10.2016 20:00:06] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[31.10.2016 20:00:06] String checked: /r no puedes agarrarlo
+[31.10.2016 20:00:06] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[31.10.2016 20:39:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[31.10.2016 20:39:38] String checked: quien quiere unirse ami fac
+[31.10.2016 20:39:38] Regex: :-\)
+[11.11.2016 10:57:53] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[11.11.2016 10:57:53] String checked: espero que no se destruya xd
+[11.11.2016 10:57:53] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[12.11.2016 16:46:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[12.11.2016 16:46:38] String checked: /msg mine cuando ay wuiders en warp msds
+[12.11.2016 16:46:38] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[14.11.2016 16:14:55] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[14.11.2016 16:14:55] String checked: /register Mecheze22 Mecheze22
+[14.11.2016 16:14:55] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[27.11.2016 12:52:00] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[27.11.2016 12:52:00] String checked: /msg the_maestro aqui lo matamos
+[27.11.2016 12:52:00] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[02.12.2016 21:30:36] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[02.12.2016 21:30:36] String checked: /spawn
+[02.12.2016 21:30:36] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[03.12.2016 17:00:24] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[03.12.2016 17:00:24] String checked: /near
+[03.12.2016 17:00:24] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[07.12.2016 16:38:27] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[07.12.2016 16:38:27] String checked: /warp evento
+[07.12.2016 16:38:27] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[08.12.2016 14:06:12] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[08.12.2016 14:06:12] String checked: /etpaccept
+[08.12.2016 14:06:12] Regex: \u534D|\u5350
+[08.12.2016 19:45:35] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[08.12.2016 19:45:35] String checked: /plot home
+[08.12.2016 19:45:35] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[09.12.2016 13:14:01] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[09.12.2016 13:14:01] String checked: /sethome
+[09.12.2016 13:14:01] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[10.12.2016 14:22:48] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.12.2016 14:22:48] String checked: /r de cualquier tipo
+[10.12.2016 14:22:48] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[10.12.2016 20:55:43] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.12.2016 20:55:43] String checked: /r en bosscraft
+[10.12.2016 20:55:43] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[14.12.2016 17:01:01] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[14.12.2016 17:01:01] String checked: /register yael yael
+[14.12.2016 17:01:01] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[16.12.2016 19:30:21] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[16.12.2016 19:30:21] String checked: /r NO!
+[16.12.2016 19:30:21] Regex: \u534D|\u5350
+[17.12.2016 13:36:39] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[17.12.2016 13:36:39] String checked: /tpa yClient
+[17.12.2016 13:36:39] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[18.12.2016 14:11:28] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.12.2016 14:11:28] String checked: /r tienes cosas legenda
+[18.12.2016 14:11:28] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[18.12.2016 15:11:08] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.12.2016 15:11:08] String checked: /tpa iTzName
+[18.12.2016 15:11:08] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[19.12.2016 11:08:22] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[19.12.2016 11:08:22] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <
+[19.12.2016 11:08:22] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[29.12.2016 15:26:57] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[29.12.2016 15:26:57] String checked: /ban Abrown por rata jaja
+[29.12.2016 15:26:57] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[02.01.2017 13:58:56] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[02.01.2017 13:58:56] String checked: &1 ? &2 ? &3 ? &4 ? &5 ? &6 ? &7 ? &8 ? &9 ? &0 ? l ?
+[02.01.2017 13:58:56] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[02.01.2017 13:59:09] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[02.01.2017 13:59:09] String checked: &1 ? &2 ? &3 ? &4 ? &5 ? &6 ? &7 ? &8 ? &9 ? &0 ? &l ?
+[02.01.2017 13:59:09] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[02.01.2017 13:59:21] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[02.01.2017 13:59:21] String checked: &1 ? &2 ? &3 ? &4 ? &5 ? &6 ? &7 ? &8 ? &9 ? &2 ? &l ?
+[02.01.2017 13:59:21] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[04.01.2017 14:21:34] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[04.01.2017 14:21:34] String checked: /tpa madara
+[04.01.2017 14:21:34] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[04.01.2017 19:39:56] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[04.01.2017 19:39:56] String checked: /tpa nici11nici
+[04.01.2017 19:39:56] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[06.01.2017 01:21:27] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[06.01.2017 01:21:27] String checked: 2207 2424 - 1539 2913 ---- 2032 2998
+[06.01.2017 01:21:27] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[06.01.2017 01:24:02] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[06.01.2017 01:24:02] String checked: 2207 2424 - 1539 2913 ---- 2032 2998
+[06.01.2017 01:24:02] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[06.01.2017 12:15:06] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[06.01.2017 12:15:06] String checked: no lo maten
+[06.01.2017 12:15:06] Regex: \u534D|\u5350
+[10.01.2017 16:40:54] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.01.2017 16:40:54] String checked: /helpop aun no me sale el grafteo y lo tengo
+[10.01.2017 16:40:54] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[10.01.2017 18:11:46] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.01.2017 18:11:46] String checked: /warp end
+[10.01.2017 18:11:46] Regex: minecraft:|youtube.com|imgur.com
+[10.01.2017 21:13:09] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.01.2017 21:13:09] String checked: /warp pvp
+[10.01.2017 21:13:09] Regex: minecraft:|youtube.com|imgur.com
+[11.01.2017 13:31:51] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[11.01.2017 13:31:51] String checked: /login poiuytrewq
+[11.01.2017 13:31:51] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[14.01.2017 15:44:46] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[14.01.2017 15:44:46] String checked: /home muerte
+[14.01.2017 15:44:46] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[14.01.2017 16:14:36] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[14.01.2017 16:14:36] String checked: /msg DirtOfEmmys me das fly porfa :
+[14.01.2017 16:14:36] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[17.01.2017 17:12:10] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[17.01.2017 17:12:10] String checked: /msg vanne me da lag aca vamos a mi casa aste tp
+[17.01.2017 17:12:10] Regex: \u534D|\u5350
+[20.01.2017 20:31:43] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[20.01.2017 20:31:43] String checked: ok
+[20.01.2017 20:31:43] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[21.01.2017 13:40:22] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[21.01.2017 13:40:22] String checked: dise no estas en un grupo
+[21.01.2017 13:40:22] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[21.01.2017 16:39:39] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[21.01.2017 16:39:39] String checked: ! Baneado LarsOG y wjnefjobefih1 Por hacks/fly/kill aura/speed
+[21.01.2017 16:39:39] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[26.01.2017 15:07:13] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[26.01.2017 15:07:13] String checked: /msg tomicai me fijistes hdp
+[26.01.2017 15:07:13] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[04.02.2017 21:45:06] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[04.02.2017 21:45:06] String checked: /BANCO
+[04.02.2017 21:45:06] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[05.02.2017 19:04:39] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[05.02.2017 19:04:39] String checked: /f join angeloti400 angeloti400
+[05.02.2017 19:04:39] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[10.02.2017 13:52:18] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.02.2017 13:52:18] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <
+[10.02.2017 13:52:18] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[10.02.2017 13:53:11] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.02.2017 13:53:11] String checked: INVASION UNDERTALE CORAZON DE FRISK <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <
+[10.02.2017 13:53:11] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[10.02.2017 21:58:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.02.2017 21:58:38] String checked: / ahora me puedes ense?ar como trollear porke yo cuando digo k hagan tpa a mi trampa
+[10.02.2017 21:58:38] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[11.02.2017 22:01:17] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[11.02.2017 22:01:17] String checked: porfis
+[11.02.2017 22:01:17] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[12.02.2017 13:31:09] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[12.02.2017 13:31:09] String checked: /helpop zSupermansx gracias oye una ultima pregunta
+[12.02.2017 13:31:09] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[12.02.2017 15:11:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[12.02.2017 15:11:38] String checked: COMO CONCIGO UNA CASA EN EL PVP
+[12.02.2017 15:11:38] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[12.02.2017 19:49:08] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[12.02.2017 19:49:08] String checked: /plot h
+[12.02.2017 19:49:08] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[13.02.2017 13:26:52] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.02.2017 13:26:52] String checked: /tpa lol23333
+[13.02.2017 13:26:52] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[13.02.2017 14:12:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.02.2017 14:12:38] String checked: si quieres puedes venir a mi casa
+[13.02.2017 14:12:38] Regex: minecraft:|youtube.com|imgur.com
+[13.02.2017 19:02:06] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.02.2017 19:02:06] String checked: dijistes que era lujoso?
+[13.02.2017 19:02:06] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[14.02.2017 19:50:44] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[14.02.2017 19:50:44] String checked: /tienda
+[14.02.2017 19:50:44] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[15.02.2017 21:24:39] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[15.02.2017 21:24:39] String checked: pero no responde :v
+[15.02.2017 21:24:39] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[16.02.2017 09:18:15] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[16.02.2017 09:18:15] String checked: /r por q consegui 7 o 8 stack consegui con ese pico
+[16.02.2017 09:18:15] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[16.02.2017 23:27:43] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[16.02.2017 23:27:43] String checked: /msg mattxD see
+[16.02.2017 23:27:43] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[18.02.2017 17:17:12] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.02.2017 17:17:12] String checked: no lo conosemos
+[18.02.2017 17:17:12] Regex: :-\(
+[18.02.2017 19:05:08] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.02.2017 19:05:08] String checked: /tpa xXCristianXx
+[18.02.2017 19:05:08] Regex: minecraft:|youtube.com|imgur.com
+[19.02.2017 14:19:49] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[19.02.2017 14:19:49] String checked: /gamemode 1
+[19.02.2017 14:19:49] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[20.02.2017 23:50:29] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[20.02.2017 23:50:29] String checked: /r me haces un rename? plox te pago $100
+[20.02.2017 23:50:29] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[21.02.2017 19:46:53] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[21.02.2017 19:46:53] String checked: /near
+[21.02.2017 19:46:53] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[23.02.2017 16:57:43] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[23.02.2017 16:57:43] String checked: bueno dejo de robar quieren sus libros
+[23.02.2017 16:57:43] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[23.02.2017 18:24:15] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[23.02.2017 18:24:15] String checked: /m srtamel cueva :V
+[23.02.2017 18:24:15] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[25.02.2017 17:06:54] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[25.02.2017 17:06:54] String checked: vamos
+[25.02.2017 17:06:54] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[26.02.2017 19:52:52] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[26.02.2017 19:52:52] String checked: /near
+[26.02.2017 19:52:52] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[28.02.2017 00:13:17] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[28.02.2017 00:13:17] String checked: /r laj :V
+[28.02.2017 00:13:17] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[28.02.2017 07:38:34] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[28.02.2017 07:38:34] String checked: <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 esto es para jonyy
+[28.02.2017 07:38:34] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[28.02.2017 16:17:28] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[28.02.2017 16:17:28] String checked: hola jefe
+[28.02.2017 16:17:28] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[28.02.2017 17:12:45] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[28.02.2017 17:12:45] String checked: jeanc
+[28.02.2017 17:12:45] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[02.03.2017 12:57:03] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[02.03.2017 12:57:03] String checked: /warp pvp
+[02.03.2017 12:57:03] Regex: minecraft:|youtube.com|imgur.com
+[03.03.2017 15:38:14] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[03.03.2017 15:38:14] String checked: /warp pvp
+[03.03.2017 15:38:14] Regex: minecraft:|youtube.com|imgur.com
+[03.03.2017 19:02:47] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[03.03.2017 19:02:47] String checked: /tpa BonnyScrub
+[03.03.2017 19:02:47] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[07.03.2017 15:33:04] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[07.03.2017 15:33:04] String checked: /r dices q mel me quiere
+[07.03.2017 15:33:04] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[08.03.2017 15:00:41] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[08.03.2017 15:00:41] String checked: /f home
+[08.03.2017 15:00:41] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[11.03.2017 19:58:04] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[11.03.2017 19:58:04] String checked: /tpahere Colosseb
+[11.03.2017 19:58:04] Regex: minecraft:|youtube.com|imgur.com
+[12.03.2017 21:08:26] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[12.03.2017 21:08:26] String checked: /msg voiro yo queiro
+[12.03.2017 21:08:26] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[13.03.2017 18:40:40] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.03.2017 18:40:40] String checked: /msg rubengaymersz quiere que le aga una sorpresa a tu espoza
+[13.03.2017 18:40:40] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[18.03.2017 09:54:29] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.03.2017 09:54:29] String checked: 000000000       000000      0000000000
+[18.03.2017 09:54:29] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[18.03.2017 11:58:38] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[18.03.2017 11:58:38] String checked: arny123456 yo tengo 1 :,v
+[18.03.2017 11:58:38] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[21.03.2017 19:50:30] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[21.03.2017 19:50:30] String checked: alguien quiere diamond?
+[21.03.2017 19:50:30] Regex: \:star\:
+[21.03.2017 21:31:15] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[21.03.2017 21:31:15] String checked: vamos a nuscar un conejo
+[21.03.2017 21:31:15] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[22.03.2017 14:57:33] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[22.03.2017 14:57:33] String checked: <3 <3 <3 <3 <3 <3<3 <3 <3 <3 <3 <3<3 <3 <3 <3 <3 <3<3 <3 <3 <3 <3 <3
+[22.03.2017 14:57:33] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[23.03.2017 12:35:32] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[23.03.2017 12:35:32] String checked: /tpahere facu
+[23.03.2017 12:35:32] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[23.03.2017 18:32:23] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[23.03.2017 18:32:23] String checked: /tpahere br5andon
+[23.03.2017 18:32:23] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[24.03.2017 19:59:11] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[24.03.2017 19:59:11] String checked: Dainer yo vendo n.n
+[24.03.2017 19:59:11] Regex: :-\(
+[25.03.2017 17:15:53] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[25.03.2017 17:15:53] String checked: /rename &mRolonTeQuiero<3
+[25.03.2017 17:15:53] Regex: minecraft:|youtube.com|imgur.com
+[26.03.2017 00:20:44] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[26.03.2017 00:20:44] String checked: /plot auto
+[26.03.2017 00:20:44] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[31.03.2017 10:44:43] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[31.03.2017 10:44:43] String checked: /msg luis1017 deme permisos amigo, confia en mi, no hare nada
+[31.03.2017 10:44:43] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+[01.04.2017 23:19:08] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[01.04.2017 23:19:08] String checked: ASFHgAHSFbc
+[01.04.2017 23:19:08] Regex: ;\)
+[09.04.2017 22:58:12] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[09.04.2017 22:58:12] String checked: oie
+[09.04.2017 22:58:12] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[10.04.2017 13:58:47] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[10.04.2017 13:58:47] String checked: /back
+[10.04.2017 13:58:47] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[13.04.2017 16:26:39] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.04.2017 16:26:39] String checked: /home
+[13.04.2017 16:26:39] Regex: [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b

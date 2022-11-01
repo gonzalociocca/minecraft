@@ -1,0 +1,8 @@
+name: FactionsTournament
+main: me.peacefulmen.factionstournament.Core
+version: 0.2
+commands:
+   ft:
+      description: Comandos de MineUltra FactionsTournament.
+      usage: /<command>
+      aliases: [factionstournament,fte,ftour]

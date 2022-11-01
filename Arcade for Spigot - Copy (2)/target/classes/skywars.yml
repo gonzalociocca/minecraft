@@ -1,0 +1,445 @@
+GameConfig:
+    shop: "MINEULTRA.COM/SHOP"
+    web: " Insane SkyWars  "
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 3200L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&a&lStarting in &c&l%s"
+    start: "&a&lGood Game!"
+    progress: " Insane SkyWars  "
+    waiting: "&a&lWaiting for players.."
+    max: "&a&lPlayers"
+    min: "&ePlayers Needed"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    bungeelobby: "swlobby"
+    games:
+       - SkyWars
+SkyWars:
+    lobbys:
+        - "swlobby"
+        - "swlobby"
+stats:
+    host: "192.99.14.217"
+    port: "3306"
+    db: "stats"
+    user: "root"
+    pwd: "trabek123-"
+    table: "statistics"
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+messages:
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a&lJoined &b&l%s"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9%s &eHas left the game"
+motd:
+   stateonly: false
+   starting: "&eStarting in %s"
+   recruiting: "&aRecruiting.."
+   inprogress: "&cStarted"
+titles:
+    death: "Killed by"
+vip:
+    name: "VIP"
+lobby: "swlobby"
+chests:
+    normal:
+      - "46,1,0,name:&a&l%name"
+      - "298,1,0,name:&a&l%name"
+      - "299,1,0,name:&a&l%name"
+      - "300,1,0,name:&a&l%name"
+      - "301,1,0,name:&a&l%name"
+      - "306,1,0,name:&a&l%name"
+      - "307,1,0,name:&a&l%name"
+      - "308,1,0,name:&a&l%name"
+      - "309,1,0,name:&a&l%name"
+      - "268,1,0,name:&a&l%name"
+      - "271,1,0,name:&a&l%name"
+      - "270,1,0,name:&a&l%name"
+      - "332,1,0,name:&a&l%name"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "275,1,0,name:&a&l%name"
+      - "274,1,0,name:&a&l%name"
+      - "272,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "79,1,0,name:&a&l%name"
+      - "400,1,0,name:&a&l%name"
+      - "350,1,0,name:&a&l%name"
+      - "320,1,0,name:&a&l%name"
+      - "259,1,0,name:&a&l%name"
+      - "19,1,0,name:&a&l%name"
+      - "346,1,0,name:&a&l%name"
+      - "17,1,0,name:&a&l%name"
+      - "344,1,0,name:&a&l%name"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "116,1,0,name:&a&l%name"
+      - "384,1,0,name:&a&l%name"
+    medium:
+      - "46,1,0,name:&a&l%name"
+      - "314,1,0,name:&a&l%name"
+      - "315,1,0,name:&a&l%name"
+      - "316,1,0,name:&a&l%name"
+      - "317,1,0,name:&a&l%name"
+      - "314,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:2"
+      - "315,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "316,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+      - "317,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:2"
+      - "310,1,0,name:&a&l%name"
+      - "311,1,0,name:&a&l%name"
+      - "312,1,0,name:&a&l%name"
+      - "313,1,0,name:&a&l%name"
+      - "283,1,0,name:&a&l%name"
+      - "283,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "286,1,0,name:&a&l%name"
+      - "285,1,0,name:&a&l%name"
+      - "332,1,0,name:&a&l%name"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "258,1,0,name:&a&l%name"
+      - "257,1,0,name:&a&l%name"
+      - "267,1,0,name:&a&l%name"
+      - "267,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "79,1,0,name:&a&l%name"
+      - "400,1,0,name:&a&l%name"
+      - "350,1,0,name:&a&l%name"
+      - "320,1,0,name:&a&l%name"
+      - "259,1,0,name:&a&l%name"
+      - "19,1,0,name:&a&l%name"
+      - "346,1,0,name:&a&l%name"
+      - "17,1,0,name:&a&l%name"
+      - "344,1,0,name:&a&l%name"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "116,1,0,name:&a&l%name"
+      - "384,1,0,name:&a&l%name"
+    opchest:
+      - "46,1,0,name:&a&l%name"
+      - "306,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:4"
+      - "307,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:3"
+      - "308,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:3"
+      - "309,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:4"
+      - "310,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:3"
+      - "311,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:2"
+      - "312,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:2"
+      - "313,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:3"
+      - "276,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "276,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "286,1,0,name:&a&l%name"
+      - "285,1,0,name:&a&l%name"
+      - "332,1,0,name:&a&l%name"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "381,1,0,name:&a&lTimeTeleport"
+      - "258,1,0,name:&a&l%name"
+      - "257,1,0,name:&a&l%name"
+      - "267,1,0,name:&a&l%name,DAMAGE_ALL:1"
+      - "267,1,0,name:&a&l%name,DAMAGE_ALL:2"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "368,1,0,name:&a&l%name"
+      - "79,1,0,name:&a&l%name"
+      - "400,1,0,name:&a&l%name"
+      - "350,1,0,name:&a&l%name"
+      - "320,1,0,name:&a&l%name"
+      - "259,1,0,name:&a&l%name"
+      - "19,1,0,name:&a&l%name"
+      - "346,1,0,name:&a&l%name"
+      - "17,16,0,name:&a&l%name"
+      - "17,16,0,name:&a&l%name"
+      - "17,16,0,name:&a&l%name"
+      - "344,1,0,name:&a&l%name"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "341,1,0,name:&a&lGrenade"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "322,1,0,name:&a&l%name"
+      - "116,1,0,name:&a&l%name"
+      - "384,1,0,name:&a&l%name"
+
+scoreboard:
+    border1: "       &a       "
+    border2: "       &e       "
+    border3: "       &c       "
+    map: "&a&lMap:"
+kits:
+    kit0:
+        enabled: true
+        icon: 298
+        name: "Leecher"
+        price: 0
+        desc:
+        perks:
+          - "null"
+        equipment:
+        inventory:
+    kit1:
+        enabled: true
+        icon: 145
+        name: "BlackSmith"
+        price: 1000
+        desc:
+          - "&a1x Diamond Helmet"
+          - "&a1x Anvil"
+          - "&a1x Enc. Book Protection 3"
+          - "&a1x Enc. Book Sharpness 1"
+          - "&a64x Exp Bottle"
+        perks:
+          - "null"
+        equipment:
+         - "310,1,0,name:&a&l%name"
+        inventory:
+         - "145,1,0,name:&a&l%name"
+         - "403,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:3"
+         - "403,1,0,name:&a&l%name,DAMAGE_ALL:1"
+         - "384,64,0,name:&a&l%name"
+    kit2:
+        enabled: true
+        icon: 261
+        name: "Hunter"
+        price: 1000
+        desc:
+          - "&a1x Bow"
+          - "&a16 x Arrow"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "261,1,0,name:&a&l%name"
+         - "262,16,0,name:&a&l%name"
+    kit3:
+        enabled: true
+        icon: 315
+        name: "Armorman"
+        price: 0
+        desc:
+          - "&a1x Gold Chestplate"
+          - "&a1x Gold Leggings"
+          - "&a1x Gold Boots"
+        perks:
+          - "null"
+        equipment:
+         - "315,1,0,name:&a&l%name"
+         - "316,1,0,name:&a&l%name"
+         - "317,1,0,name:&a&l%name"
+        inventory:
+    kit4:
+        enabled: true
+        icon: 17
+        name: "Ecologist"
+        price: 1000
+        desc:
+          - "&a1x Iron Axe with DigSpeed 1"
+          - "&a16x Wood"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "258,1,0,name:&a&l%name,DIG_SPEED:1"
+         - "17,16,0,name:&a&l%name"
+    kit5:
+        enabled: true
+        icon: 30
+        name: "Troll"
+        price: 1000
+        desc:
+          - "&a1x Leather Helmet"
+          - "&a1x Leather Chestplate"
+          - "&a1x Leather Leggings"
+          - "&a1x Leather Boots"
+          - "&a16x Fireworks"
+          - "&a8x Web"
+        perks:
+          - "null"
+        equipment:
+         - "298,1,0,name:&a&l%name"
+         - "299,1,0,name:&a&l%name"
+         - "300,1,0,name:&a&l%name"
+         - "301,1,0,name:&a&l%name"
+        inventory:
+         - "401,16,0,name:&a&l%name"
+         - "30,8,0,name:&a&l%name"
+    kit6:
+        enabled: true
+        icon: 346
+        name: "Fisherman"
+        price: 1000
+        desc:
+          - "&a1x Grappling Hook"
+          - "&a16x Cooked Fish"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "346,1,0,name:&a&l%name,KNOCKBACK:1,DURABILITY:10"
+         - "350,16,0,name:&a&l%name"
+    kit7:
+        enabled: true
+        icon: 257
+        name: "Camper"
+        price: 1000
+        desc:
+          - "&a1x Diamond Pickaxe"
+          - "&a16x Stone"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "257,1,0,name:&a&l%name,DAMAGE_ALL:1,DURABILITY:3,DIG_SPEED:3"
+         - "1,16,0,name:&a&l%name"
+    kit8:
+        enabled: true
+        icon: 116
+        name: "Enchanter"
+        price: 1000
+        desc:
+          - "&a1x Enchantment Table"
+          - "&a64x Exp Bottle"
+          - "&a8x Book"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "116,1,0,name:&a&l%name"
+         - "384,64,0,name:&a&l%name"
+         - "340,8,0,name:&a&l%name"
+    kit9:
+        enabled: true
+        icon: 283
+        name: "Knight"
+        price: 1000
+        desc:
+          - "&a1x Gold Helmet with Protection 2"
+          - "&a1x Gold Sword with Durability 3 and Sharpness 2"
+        perks:
+          - "null"
+        equipment:
+         - "314,1,0,name:&a&l%name,PROTECTION_ENVIRONMENTAL:1"
+        inventory:
+         - "283,1,0,name:&a&l%name,DURABILITY:5,DAMAGE_ALL:2"
+    kit10:
+        enabled: true
+        icon: 344
+        name: "Farmer"
+        price: 1000
+        desc:
+          - "&a1x Iron Leggings with Projectile Protection 3"
+          - "&a64x Egg"
+          - "&a1x Golden Apple"
+        perks:
+          - "null"
+        equipment:
+         - "308,1,0,name:&a&l%name,PROTECTION_PROJECTILE:3"
+        inventory:
+         - "344,64,0,name:&a&l%name"
+         - "322,1,0,name:&a&l%name"
+    kit11:
+        enabled: true
+        icon: 259
+        name: "Pyro"
+        price: 3000
+        desc:
+          - "&a1x Iron Chestplate"
+          - "&a1x Flint and Steel with Durability 10"
+          - "&a5x Lava Bucket"
+          - "&a1x Throwable Potion of Fire Resistance"
+        perks:
+          - "null"
+        equipment:
+         - "307,1,0,name:&a&l%name"
+        inventory:
+         - "259,1,0,name:&a&l%name,DURABILITY:10"
+         - "327,5,0,name:&a&l%name"
+         - "373,1,16451,name:&a&l%name"
+    kit12:
+        enabled: true
+        icon: 86
+        name: "Snowman"
+        price: 5000
+        desc:
+          - "&ax16 Snowball"
+          - "&ax2 SnowBlock"
+          - "&ax1 Iron Shovel with Durability 3"
+          - "&a1x Pumkin Head"
+        perks:
+          - "null"
+        equipment:
+        inventory:
+         - "332,16,0,name:&a&l%name"
+         - "80,2,0,name:&a&l%name"
+         - "256,1,0,name:&a&l%name,DURABILITY:3"
+         - "86,1,0,name:&a&l%name"
+    kit13:
+        enabled: true
+        icon: 46
+        name: "Bomberman"
+        price: 5000
+        desc:
+          - "&a1x Iron Boots with Fall Protection 3 and Explosions Protection 3"
+          - "&a16x TNT"
+          - "&a1x Water Bucket"
+        perks:
+          - "null"
+        equipment:
+         - "309,1,0,name:&a&l%name,PROTECTION_FALL:3,PROTECTION_EXPLOSIONS:3"
+        inventory:
+         - "46,16,0,name:&a&l%name"
+         - "326,1,0,name:&a&l%name"
+
+#Perks:
+#Speed - Food - Flame Dash - Ropped Arrow - Flame - Inferno
+        
+tips:
+    - "The last man standing wins the game"
+    - "Buy a rank, in www.mineultra.com and help us!"
+    - "See you in the ranking at www.mineranked.net/ranking!"
+mapconfig:
+    folder: "maps/%game"
+lobby:
+    spawnX: 28
+    spawnY: 115
+    spawnZ: -74
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60

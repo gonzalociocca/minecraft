@@ -1,0 +1,21 @@
+kitname:
+  cost: 0
+  potions:
+    '1':
+      quantity: 64
+      splash: true
+      effects:
+        strength:
+          level: 3
+          seconds: 500
+    '2':
+      name: Artificial Flight
+      quantity: 1
+      splash: false
+      effects:
+        jump:
+          level: 15
+          seconds: 800
+        resistance:
+          level: 100
+          seconds: 800

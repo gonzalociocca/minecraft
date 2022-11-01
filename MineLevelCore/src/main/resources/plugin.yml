@@ -1,0 +1,43 @@
+name: MineLevelCore
+main: me.gonzalociocca.minelevel.core.Main
+version: 15
+load: STARTUP
+depend: [Vault]
+commands:
+   moveto:
+    usage: /<command>
+   rename:
+      description: Comando para renombrar items.
+      usage: /<command>
+   god:
+      description: Comando invencibilidad.
+      usage: /<command>
+   fly:
+      description: Comando para volar.
+      usage: /<command>
+   runeclear:
+      description: Alias de RuneClear.
+      usage: /<command>
+   auto:
+      description: Auto Privado.
+      usage: /<command>
+   mine:
+      description: Comandos de MineLevel.
+      usage: /<command>
+      aliases: [give]
+   mod:
+      description: Comandos de Moderacion.
+      usage: /<command>
+      aliases: [ban,unban,kick,vanish,tp,mute,unmute,list,near,nearby]
+   reports:
+      description: Abrir menu de Reportes (Solo GameMasters).
+   report:
+      description: Reportar a un jugador.
+   banco:
+      description: Comandos del Banco.
+      usage: /<command>
+      aliases: [bank]
+   evento:
+      description: Comandos de Eventos.
+      usage: /<command>
+      aliases: [eventos]

@@ -1,0 +1,6 @@
+phrases:
+  noPerm: "&cInsufficient permissions"
+  notArgs: "&cInvalid arguments: &f/restartplugin <Plugin Name>"
+  pluginNotFound: "&cThat plugin couldn't be found"
+  restartSuccess: "&aThe plugin was reloaded successfully!"
+  restartError: "&cAn error ocurred while reloading the plugin! Please check the console for details"

@@ -1,0 +1,15 @@
+wins: 8
+kills: 39
+deaths: 48
+gamesPlayed: 56
+score: 277
+blocksPlaced: 1105
+killDeath: 0.8125
+glasscolor: normal
+effect: lava
+traileffect: normal
+name: amorgamer
+balance: 0
+permissions:
+- swr.effect.lava
+- swr.kit.free.talador

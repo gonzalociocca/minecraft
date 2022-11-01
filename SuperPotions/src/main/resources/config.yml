@@ -1,0 +1,13 @@
+#SuperPotions - Flaminyogurt
+# -1 will turn off check
+maxlevel: -1
+maxduration: -1
+replaceeffects: true
+ambient: true
+messages: true
+economy: false
+autoupdate-check: true
+autoupdate-download: true
+effect-permissions: false
+kit-permissions: false
+allow-opt: false

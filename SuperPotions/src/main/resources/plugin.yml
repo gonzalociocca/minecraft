@@ -1,0 +1,65 @@
+name: SuperPotions
+author: Flaminyogurt
+main: flaminyogurt.plugins.superpotions.SuperPotions
+version: 2.6
+description: Use commands to give players potion effects, even some not normally available!
+database: false
+softdepend: [Vault]
+commands:
+    potion:
+        description: SuperPotions help page
+        aliases: [sp, pe]
+        permission: superpotions.help
+        usage: /plugin
+permissions:
+    superpotions.admin:
+        descrption: Gives access to all SuperPotions commands!
+        children:
+            superpotions.effect: true
+            superpotions.effect.others: true
+            superpotions.create: true
+            superpotions.create.others: true
+            superpotions.help: true
+            superpotions.removeall: true
+            superpotions.removeall.others: true
+            superpotions.all: true
+            superpotions.config: true
+            superpotions.update: true
+            superpotions.kits: true
+            superpotions.kits.others: true
+            superpotions.opt: true
+    superpotions.self:
+        description: Gives access to all commands affecting the command sender.
+        children:
+            superpotions.effect: true
+            superpotions.create: true
+            superpotions.kits: true
+            superpotions.help: true
+            superpotions.removeall: true
+            superpotions.opt: true
+    superpotions.effect:
+        description: Allows the player to give him or her self potion effects, and gives access to /potion list.
+    superpotions.effect.others:
+        description: Allows the player to give other people potion effects.
+    superpotions.create:
+        description: Allows the player to give him or her self a custom potion and add effects to held potions, and gives access to /potion list.
+    superpotions.create.others:
+        description: Allows the player to give other people custom potions.
+    superpotions.help:
+        description: Allows access to /potion which shows the help info.
+    superpotions.removeall:
+        description: Allows access to remove all potion effects from yourself.
+    superpotions.removeall.others:
+        description: Allows access to remove all potion effects from other players.
+    superpotions.all:
+        description: Allows access to /potion all allowing the player to give all server players a potion effect.
+    superpotions.config:
+        description: Allows access to config editing commands.
+    superpotions.update:
+        description: Allows the player to update the plugin to the newest version.
+    superpotions.kits:
+        description: Allows the player to use the kit command.
+    superpotions.kits.others:
+        description: Allows the player to give kits to other players.
+    superpotions.opt:
+        description: Allows the player to opt in/out of global commands.

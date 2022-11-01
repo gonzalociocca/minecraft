@@ -1,0 +1,8 @@
+name: Spartan
+author: Evangelos Dedes @Vagdedes
+main: me.vagdedes.spartan.Register
+version: Build 144
+website: http://www.spigotmc.org/resources/25638
+description: An extraordinary cross-version cheat prevention you have always dreamed of.
+commands:
+  spartan:

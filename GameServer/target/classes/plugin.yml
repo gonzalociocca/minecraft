@@ -1,0 +1,19 @@
+name: Server
+main: server.ServerPlugin
+version: 1
+commands:
+   boardedit:
+      usage: /boardedit
+      aliases: []
+   game:
+      usage: /instance
+      aliases: []
+   broadcast:
+      usage: /broadcast
+      aliases: []
+   money:
+      usage: /money
+      aliases: [balance, bal, creditos, dinero]
+   kit:
+      usage: /kit
+      aliases: []

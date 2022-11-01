@@ -1,0 +1,32 @@
+# -------------------------------------------------------------------------------
+# This file manages rules in chat (not commands) and includes rules from rules.txt.
+#
+# File by default contain examples that you can safely remove or change.
+#
+# For help, see notes in rules.txt file.
+# -------------------------------------------------------------------------------
+
+# -------- Example usage of unicode characters - making smileys
+match :\)
+then replace ☺
+
+match :-\)
+then replace ☺
+
+match :\(
+then replace ☹
+
+match :-\(
+then replace ☹
+
+match ;\)
+then replace ㋡
+
+match ;-\)
+then replace ㋡
+
+match \:star\:
+then replace ★
+
+match <3\b
+then replace ❤

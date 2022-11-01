@@ -1,0 +1,4 @@
+name: BungeeRestart
+main: server.bungee.restart.Restart
+version: 1.0
+author: MineLevel

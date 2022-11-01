@@ -1,0 +1,8 @@
+FactionsTournament:
+ ID132312:
+    inscripto: false
+    tag: "312312"
+    leader: "Happy"
+    elo: 100
+    players: happy,joppy
+    battles:

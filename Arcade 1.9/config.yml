@@ -1,0 +1,158 @@
+ip_forward: true
+network_compression_threshold: 256
+stats: 4a4709ad-c78d-429b-b253-7c761c1afa52
+permissions:
+  default:
+  - bungeecord.command.list
+  admin: []
+groups:
+  md_5:
+  - admin
+servers:
+  lobby:
+    address: 158.69.122.84:25566
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  lobby2:
+    address: 192.99.8.40:25567
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  factions:
+    address: 158.69.122.84:27775
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  skyblock:
+    address: 158.69.122.84:29512
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  kitpvp:
+    address: 158.69.122.84:28771
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  arcade:
+    address: 192.99.8.40:54120
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  arcade2:
+    address: 192.99.8.40:54121
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  sw1:
+    address: 192.99.8.40:54124
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  sw2:
+    address: 192.99.8.40:54125
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  sw3:
+    address: 192.99.8.40:54126
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  sw4:
+    address: 192.99.8.40:54127
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  bb1:
+    address: 192.99.8.40:12390
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  bb2:
+    address: 192.99.8.40:12391
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  bb3:
+    address: 192.99.8.40:12392
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  bb4:
+    address: 192.99.8.40:12393
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  rex:
+    address: 192.99.8.40:27434
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  nexus:
+    address: 192.99.8.40:12223
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  endworld:
+    address: 158.69.122.84:27914
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  prison:
+    address: 158.69.122.84:19900
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  opfactions:
+    address: 158.69.122.84:19901
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  askyblock:
+    address: 158.69.122.84:19902
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  hg:
+    address: 192.99.8.40:29221
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  hg2:
+    address: 192.99.8.40:29222
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  hg3:
+    address: 192.99.8.40:29223
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  blockhunt:
+    address: 192.99.8.40:32011
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  oitq:
+    address: 192.99.8.40:33011
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  oitq2:
+    address: 192.99.8.40:33012
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  zombi:
+    address: 192.99.8.40:13045
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  zombi2:
+    address: 192.99.8.40:13046
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  spleef:
+    address: 192.99.8.40:23431
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+  spleef2:
+    address: 192.99.8.40:23432
+    restricted: false
+    motd: '&3&lMine&b&lUltra'
+timeout: -1
+listeners:
+- max_players: 1250
+  host: 0.0.0.0:3333
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: GLOBAL_PING
+  forced_hosts:
+    0.0.0.0: lobby
+  tab_size: 60
+  force_default_server: true
+  motd: '&3&lMine&b&lUltra'
+  query_enabled: false
+  query_port: 25577
+  priorities:
+  - lobby
+  - lobby
+player_limit: 750
+online_mode: false
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: -1

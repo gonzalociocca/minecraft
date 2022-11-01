@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_mysqlmanager" default="compile.module.mysqlmanager">
+  <dirname property="module.mysqlmanager.basedir" file="${ant.file.module_mysqlmanager}"/>
+  
+  <property name="module.jdk.home.mysqlmanager" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mysqlmanager" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mysqlmanager" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mysqlmanager" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="mysqlmanager.output.dir" value="${module.mysqlmanager.basedir}/target/classes"/>
+  <property name="mysqlmanager.testoutput.dir" value="${module.mysqlmanager.basedir}/target/test-classes"/>
+  
+  <path id="mysqlmanager.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mysqlmanager.module.production.classpath">
+    <path refid="${module.jdk.classpath.mysqlmanager}"/>
+    <path refid="library.maven:_org.bukkit:spigot:1.9.classpath"/>
+  </path>
+  
+  <path id="mysqlmanager.runtime.production.module.classpath">
+    <pathelement location="${mysqlmanager.output.dir}"/>
+    <path refid="library.maven:_org.bukkit:spigot:1.9.classpath"/>
+  </path>
+  
+  <path id="mysqlmanager.module.classpath">
+    <path refid="${module.jdk.classpath.mysqlmanager}"/>
+    <pathelement location="${mysqlmanager.output.dir}"/>
+    <path refid="library.maven:_org.bukkit:spigot:1.9.classpath"/>
+  </path>
+  
+  <path id="mysqlmanager.runtime.module.classpath">
+    <pathelement location="${mysqlmanager.testoutput.dir}"/>
+    <pathelement location="${mysqlmanager.output.dir}"/>
+    <path refid="library.maven:_org.bukkit:spigot:1.9.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mysqlmanager">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mysqlmanager">
+    <patternset refid="excluded.from.module.mysqlmanager"/>
+  </patternset>
+  
+  <path id="mysqlmanager.module.sourcepath">
+    <dirset dir="${module.mysqlmanager.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="mysqlmanager.module.test.sourcepath">
+    <dirset dir="${module.mysqlmanager.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.mysqlmanager" depends="compile.module.mysqlmanager.production,compile.module.mysqlmanager.tests" description="Compile module MySQLManager"/>
+  
+  <target name="compile.module.mysqlmanager.production" depends="register.custom.compilers" description="Compile module MySQLManager; production classes">
+    <mkdir dir="${mysqlmanager.output.dir}"/>
+    <javac2 destdir="${mysqlmanager.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mysqlmanager}/javac">
+      <compilerarg line="${compiler.args.mysqlmanager}"/>
+      <bootclasspath refid="mysqlmanager.module.bootclasspath"/>
+      <classpath refid="mysqlmanager.module.production.classpath"/>
+      <src refid="mysqlmanager.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mysqlmanager"/>
+    </javac2>
+    
+    <copy todir="${mysqlmanager.output.dir}">
+      <fileset dir="${module.mysqlmanager.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.mysqlmanager.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.mysqlmanager.tests" depends="register.custom.compilers,compile.module.mysqlmanager.production" description="compile module MySQLManager; test classes" unless="skip.tests">
+    <mkdir dir="${mysqlmanager.testoutput.dir}"/>
+    <javac2 destdir="${mysqlmanager.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mysqlmanager}/javac">
+      <compilerarg line="${compiler.args.mysqlmanager}"/>
+      <bootclasspath refid="mysqlmanager.module.bootclasspath"/>
+      <classpath refid="mysqlmanager.module.classpath"/>
+      <src refid="mysqlmanager.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mysqlmanager"/>
+    </javac2>
+    
+    <copy todir="${mysqlmanager.testoutput.dir}">
+      <fileset dir="${module.mysqlmanager.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.mysqlmanager" description="cleanup module">
+    <delete dir="${mysqlmanager.output.dir}"/>
+    <delete dir="${mysqlmanager.testoutput.dir}"/>
+  </target>
+</project>

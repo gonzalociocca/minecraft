@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="MySQLManager:jar">
+    <output-path>$PROJECT_DIR$/target/</output-path>
+    <root id="root">
+      <element id="archive" name="MySQLManager.jar">
+        <element id="module-output" name="MySQLManager" />
+      </element>
+    </root>
+  </artifact>
+</component>

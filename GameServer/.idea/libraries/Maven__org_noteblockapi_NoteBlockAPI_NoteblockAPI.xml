@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.noteblockapi:NoteBlockAPI:NoteblockAPI">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/noteblockapi/NoteBlockAPI/NoteblockAPI/NoteBlockAPI-NoteblockAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/noteblockapi/NoteBlockAPI/NoteblockAPI/NoteBlockAPI-NoteblockAPI-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/noteblockapi/NoteBlockAPI/NoteblockAPI/NoteBlockAPI-NoteblockAPI-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

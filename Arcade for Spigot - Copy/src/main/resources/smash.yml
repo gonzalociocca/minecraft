@@ -1,0 +1,82 @@
+GameConfig:
+    shop: "MINEULTRA.COM/SHOP"
+    web: "MINEULTRA.COM"
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 2000L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&f&lStarting in &a&l%s"
+    start: "&a&lGood Game!"
+    progress: "&f&lIn progress"
+    waiting: "&a&lWaiting for players.."
+    max: "&eMax Players"
+    min: "&eMin Players"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    games:
+       - Smash
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+messages:
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a&lJoined &b&l%s"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9%s &eHas left the game" 
+motd:
+   stateonly: true;
+   starting: "&a&lStarting in %s"
+   recruiting: "&a&lRecruiting.."
+   inprogress: "&f&lIn progress"
+scoreboard:
+    border1: "&e&m&l*------*&r"
+    border2: "&a&m&l*------*&r"
+    border3: "&c&m&l*------*&r"
+    map: "&a&lMap:"
+titles:
+    death: "You where killed by"
+vip:
+    name: "VIP"
+lobby: "lobby"
+kickvote: true
+tips:
+    - "Smash your enemys"
+    - "play with your team"
+    - "Hit them, out of the box"
+mapconfig:
+    folder: "maps/%game"
+kitprices:
+    batman: 5000
+    bomber: 3000
+    tryhard: 2500
+    wither: 2000
+lobby:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -74
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60
+    

@@ -1,0 +1,29 @@
+version: 2
+interLobby: true
+VerifiedPremiumUserFailToLogin: "&cThe account that you tried to join is of a premium user, maybe mojang is off?, try again, or restart your mine"
+nologinLobby:
+    - "lobby2"
+defaultServer:
+    - "lobby"
+DisabledBungeeCommandsInCrakedLobbys:
+    - /glist
+MessageIsCommandDisabledInCrackedLobby:
+    - "&cThe command is deactivated in this lobby!"
+AntiBot:
+    enabled: true
+    clearDelay: 120
+    Max: 30
+JoinDelay:
+    enabled: false
+    canJoin: 50
+    everyAmountOfSeconds: 2
+MySQL:
+    enabled: true
+    host: "127.0.0.1"
+    port: "3306"
+    dbuser: "root"
+    password: "trabek123-" 
+    dbname: "premium"
+    dbtable: "players"
+    dbcolumn: "name"
+    ConvertYMLtoMYSQL: false

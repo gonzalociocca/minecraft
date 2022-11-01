@@ -1,0 +1,11 @@
+name: PluginTemporal
+main: me.gonzalociocca.Temporal
+version: 1
+softdepend: [MineLevelCore]
+commands:
+  analyzer:
+      description: Comando analyzer el server.
+      usage: /<command>
+  bugcofre:
+      description: Comando para devolver items del server.
+      usage: /<command>

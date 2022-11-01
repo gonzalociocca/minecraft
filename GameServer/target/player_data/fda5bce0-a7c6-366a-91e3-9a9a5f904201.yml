@@ -1,0 +1,19 @@
+wins: 99
+kills: 517
+deaths: 84
+gamesPlayed: 181
+score: 3531
+blocksPlaced: 11289
+killDeath: 6.154761904761905
+glasscolor: lime
+effect: magic
+traileffect: water
+name: josueproYT
+balance: 0
+permissions:
+- swr.colorglass.lime
+- swr.kit.free.talador
+- swr.projeffect.water
+- swr.effect.magic
+- swr.kit.free.spiderman
+- swr.kit.free.boom

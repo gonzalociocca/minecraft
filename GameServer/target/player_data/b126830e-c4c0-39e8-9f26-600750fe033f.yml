@@ -1,0 +1,17 @@
+wins: 19
+kills: 163
+deaths: 160
+gamesPlayed: 179
+score: 866
+blocksPlaced: 3607
+killDeath: 1.01875
+glasscolor: orange
+effect: snow
+traileffect: critical
+name: EduGamer_GT
+balance: 0
+permissions:
+- swr.colorglass.orange
+- swr.projeffect.critical
+- swr.effect.snow
+- swr.kit.free.talador

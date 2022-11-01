@@ -1,0 +1,168 @@
+GameConfig:
+    shop: "MINEULTRA.COM/SHOP"
+    web: " BUILD BATTLE "
+    url: "www.mineultra.com"
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 3200L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&f&lEmpezando &a&l%s"
+    start: "&a&lBuen Juego!"
+    progress: "&f&lEn progreso"
+    waiting: "&a&lEsperando jugadores.."
+    max: "&eMax Players"
+    min: "&eMin Players"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    bungeelobby: "arcade"
+    games:
+       - BuildBattle
+BuildBattle:
+    scoreboard: "&a&l BuildBattle &r"
+    server: "mini12"
+    website: "www.mineultra.com"
+    time: 480
+    lobby: "arcade"
+    themes:
+        - "Invierno"
+        - "Primavera"
+        - "Verano"
+        - "Otoño"
+        - "Ruinas"
+        - "Oasis"
+        - "Cementerio"
+        - "Dragon"
+        - "Parque"
+        - "Plaza"
+        - "Hobbit"
+        - "CasaDelArbol"
+        - "Rustico"
+        - "Fabrica"
+        - "ADN"
+        - "Piscina"
+        - "Cascada"
+        - "Volcan"
+        - "Titan"
+        - "Mina"
+        - "Futurista"
+        - "Musica"
+        - "Trofeo"
+        - "Luna"
+        - "Moderno"
+        - "Faro"
+        - "Disney"
+        - "EstiloLibre"
+        - "Perro"
+        - "Hulk"
+        - "Spiderman"
+        - "Gato"
+        - "Pato"
+        - "Ave"
+        - "BobEsponja"
+        - "Superman"
+        - "Computadora"
+        - "Prision"
+        - "Lago"
+        - "Pokemon"
+    mysql:
+        host: "mineultra.com"
+        port: "3306"
+        db: "economy"
+        user: "root"
+        pwd: "trabek123-"
+        table: "buildbattle"
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+messages:
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a[&e&l+&a] &b&l%s &a&l:)"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9[&c&l-&9]&7 %s &c&l);"
+motd:
+   stateonly: true;
+   starting: "&a&lStarting in %s"
+   recruiting: "&a&lRecruiting.."
+   inprogress: "&f&lIn progress"
+titles:
+    death: "You where killed by"
+vip:
+    name: "VIP"
+scoreboard:
+    border1: "-------&a-------"
+    border2: "-------&e-------"
+    border3: "-------&c-------"
+    map: "&a&lMap:"
+kits:
+    knight:
+        name: "Knight"
+        price: 0
+        desc:
+          - "The less common of the warriors"
+        perks:
+          - "null"
+    archer:
+        name: "Archer"
+        price: 1000
+        desc:
+          - "Bet the enemys with your bow"
+          - "and kill them"
+        perks:
+          - "Ropped Arrow"
+    flame:
+        name: "Flame"
+        price: 3000
+        desc:
+          - "A warrior in the fight"
+        perks:
+          - "Flame Dash"
+          - "Inferno"
+    monster:
+        name: "Monster"
+        price: 3000
+        desc:
+          - "An assassin without heart"
+        perks:
+          - "Speed"
+          - "Food"
+tips:
+    - "Compete versus the best builders"
+    - "be fast, or you will not finish at time!"
+    - "open your inventory, to pickup blocks from creative"
+mapconfig:
+    folder: "maps/%game"
+kitprices:
+    knight: 0
+    archer: 1000
+    flame: 1500
+    monster: 3000
+    spider: 3000
+lobby:
+    spawnX: -3
+    spawnY: 240
+    spawnZ: -2
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60

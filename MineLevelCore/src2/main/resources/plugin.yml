@@ -1,0 +1,39 @@
+name: MineLevelCore
+main: me.gonzalociocca.minelevel.core.Main
+version: 1
+commands:
+   rename:
+      description: Comando para renombrar items.
+      usage: /<command>
+   god:
+      description: Comando invencibilidad.
+      usage: /<command>
+   fly:
+      description: Comando para volar.
+      usage: /<command>
+   runas:
+      description: Alias de Runes.
+      usage: /<command>
+   auto:
+      description: Auto Privado.
+      usage: /<command>
+   mine:
+      description: Comandos de MineLevel.
+      usage: /<command>
+      aliases: [give]
+   mod:
+      description: Comandos de Moderacion.
+      usage: /<command>
+      aliases: [ban,unban,kick,vanish,tp]
+   reports:
+      description: Abrir menu de Reportes (Solo GameMasters).
+   report:
+      description: Reportar a un jugador.
+   banco:
+      description: Comandos del Banco.
+      usage: /<command>
+      aliases: [ban,unban,kick,vanish,tp]
+   evento:
+      description: Comandos de Eventos.
+      usage: /<command>
+      aliases: [eventos]

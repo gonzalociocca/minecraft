@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="MineUltraGames:jar">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="root">
+      <element id="archive" name="MineUltraGames.jar">
+        <element id="module-output" name="UltraArcade" />
+      </element>
+      <element id="library" level="project" name="Maven: org.bukkit:spigot:1.9" />
+    </root>
+  </artifact>
+</component>

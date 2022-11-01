@@ -1,0 +1,110 @@
+TurboRacers:
+    itemshopslot: 5
+    scoreboard: "&a&lTurbo Kart Racers"
+    website: "spigotmc.com"
+    HCPuntosName: "Turbo Kart Racers"
+    mysql:
+        host: "127.0.0.1"
+        port: "3306"
+        db: "stats"
+        user: "root"
+        pwd: "trabek123-"
+        table: "turbokartracers"
+    parts:
+        epicpartcost: 2500
+        sellpercent: 10
+        levelcost:
+            turbo: 3500
+            engine: 3000
+            frame: 2500
+    suits:
+        price:
+            L0: 1000
+            L1: 2000
+            L2: 3000
+            L3: 4000
+            L4: 5000
+        L0:
+           - "Gold Chestplate"
+           - "Gold Leggings"
+           - "Gold Boots"
+        L1:
+           - "Chainmail Chestplate"
+           - "Chainmail Leggings"
+           - "Chainmail Boots"
+        L2:
+           - "Iron Chestplate"
+           - "Iron Leggings"
+           - "Iron Boots"
+        L3:
+           - "Diamond Chestplate"
+           - "Diamond Leggings"
+           - "Diamond Boots"
+        L4:
+           - "Leather Chestplate"
+           - "Leather Leggings"
+           - "Leather Boots"
+    particletrail:
+        - "0,2000,399,0,Crit"
+        - "1,2000,399,0,Magic Crit"
+        - "2,2000,1,0,Cloud"
+        - "3,2000,378,0,Drip Lava"
+        - "4,2000,8,0,Drip Water"
+        - "5,2000,401,0,Fireworks Spark"
+        - "6,2000,377,0,Flame"
+        - "7,2000,260,0,Hearts"
+        - "8,2000,384,0,TownAura"
+        - "9,2000,10,0,Lava"
+        - "10,2000,25,0,Noteblock"
+        - "11,2000,90,0,Portal"
+        - "12,2000,331,0,Redstone"
+        - "13,2000,341,0,Slime"
+        - "14,2000,373,16392,SpellWitch"
+        - "15,2000,373,16394,Spell"
+    skins:
+        - "0,2000,3,2,Blue Steel"
+        - "1,4000,23,0,Glow"
+        - "2,5000,27,0,Violet"
+        - "3,5000,58,0,Brown"
+        - "4,5000,61,0,Fire"
+        - "5,5000,66,0,Phantom"
+        - "6,5000,84,0,Green"
+        - "7,5000,110,0,Black"
+        - "8,5000,116,0,Sky Blue"
+        - "9,5000,120,0,Yellow"
+        - "10,5000,145,1,Navy Blue"
+        - "11,5000,145,2,Phantom v2"
+        - "12,5000,145,0,Verdant"
+        - "13,5000,157,0,Light Brown"
+        - "14,5000,158,0,Coffee"
+    helmets:
+        - "0,2000,6,0,Black Red"
+        - "1,4000,6,1,Gold Darkgreen"
+        - "2,5000,6,2,Pink Floyd"
+        - "3,5000,6,3,Pink Sky-Blue"
+        - "4,5000,6,4,White Black"
+        - "5,5000,6,5,Gold Green"
+        - "6,5000,35,6,Snow Yellow"
+        - "7,15000,38,4,Dark Sun"
+        - "8,5000,38,5,Celestial"
+        - "9,5000,171,9,Purple White"
+        - "10,5000,171,6,Red Eyes"
+        - "11,5000,171,3,Divine Gold"
+        - "12,5000,171,11,Navy Blue Racer"
+        - "13,5000,171,12,Yellow Racer"
+        - "14,5000,38,6,Dark Ice"
+        - "15,5000,171,2,Divine Green"
+        - "16,5000,38,7,Dark Strawberry"
+        - "17,5000,170,0,Green Headphones"
+    horns:
+        - "0,5000,3,2,Horn 1,a"
+        - "1,5000,3,2,Horn 2,b"
+        - "2,5000,3,2,Horn 3,c"
+        - "3,5000,3,2,Horn 4,d"
+        - "4,5000,3,2,Horn 5,e"
+        - "5,5000,3,2,Horn 6,f"
+        - "6,5000,3,2,Horn 7,g"
+        - "7,5000,3,2,Horn 8,h"
+        - "8,5000,3,2,Horn 9,i"
+        - "9,5000,3,2,Horn 10,j"
+        - "10,5000,3,2,Horn 11,k"

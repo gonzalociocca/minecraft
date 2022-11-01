@@ -1,0 +1,28 @@
+name: MiniGame
+main: me.gonzalociocca.minigame.Core
+version: 1.0
+softdepend: []
+description: MiniGame is a plugin maded by gonzalo ciocca.
+author: Gonzalo Ciocca
+website: http://www.MineLevel.com/
+commands:
+   minigame:
+      description: Core Command
+      usage: /minigame
+      aliases: []
+   rank:
+      description: Rank management Command
+      usage: /rank
+      aliases: [rango]
+   teleport:
+      description: Teleport Command
+      usage: /teleport
+      aliases: [tp]
+   reset:
+      description: Reset Command
+      usage: /reset
+      aliases: []
+   game:
+      description: Game Command
+      usage: /game
+      aliases: []

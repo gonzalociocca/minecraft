@@ -1,0 +1,102 @@
+GameConfig:
+    DeathSpectateSecs: 10
+    NexusHealth: 25
+    fase4time: 1500
+    fase3time: 900
+    fase2time: 300
+    shop: "MINEULTRA.COM/SHOP"
+    web: "MINEULTRA.COM"
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 3200L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&f&lStarting in &a&l%s"
+    start: "&a&lGood Game!"
+    progress: "&f&lIn progress"
+    waiting: "&a&lWaiting for players.."
+    max: "&eMax Players"
+    min: "&eMin Players"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    games:
+       - Nexus
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+vip:
+    name: "VIP"
+lobby: "lobby"
+scoreboard:
+    border1: "-------&a-------"
+    border2: "-------&e-------"
+    border3: "-------&c-------"
+    map: "&a&lMap:"
+    nexus: "%color&lNexus%id:"
+messages:
+    fase1destroy: "You cant destroy the nexus during the FASE 1"
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM/SHOP"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a&lJoined &b&l%s"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9%s &eHas left the game"
+motd:
+   stateonly: true;
+   starting: "&a&lStarting in %s"
+   recruiting: "&a&lRecruiting.."
+   inprogress: "&f&lIn progress"
+titles:
+    barmain: "MINEULTRA - FASE - "
+    fase1: "Recruitment"
+    fase2: "Attack`s BEGIN!"
+    fase3: "x2 damage to nexus`s"
+    fase4: "UltraFase released!"
+    death: "You where killed by"
+tips:
+    - "Destroy the enemy`s nexus"
+    - "Attack after the Fase TWO!"
+    - "Be bad, if you wanna win"
+    - "but, dont be so rude...!"
+mapconfig:
+    folder: "maps/%game"
+kitprices:
+    master: 10000
+    golem: 20000
+    inferno: 20000
+    vampire: 7500
+    archer: 0
+    miner: 0
+    warrior: 0
+kititems:
+    miner:
+      - 278,1,0,name:&b&lDiamond Pickaxe,DIG_SPEED:3"
+    warrior:
+      - 267,1,0,name:&a&lIron Sword,DAMAGE_ALL:1"
+lobby:
+    spawnX: 28.55
+    spawnY: 64
+    spawnZ: -74.62
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60
+    

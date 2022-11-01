@@ -1,0 +1,544 @@
+#Type-Price-MaterialID-Durability-Name
+TurboRacers:
+    actionbar: "&aWaiting Lobby | spigotmc.org"
+    scoreboard: "&a&lTurboKartRacers"
+    server: "mini12"
+    website: "spigotmc.org"
+    HCPuntosName: "TurboKartRacers"
+    mysql:
+        host: "127.0.0.1"
+        port: "3306"
+        db: "stats"
+        user: "root"
+        pwd: "trabek123-"
+        table: "turbokartracers"
+    parts:
+        epicpartcost: 2500
+        sellpercent: 10
+        levelcost:
+            turbo: 3500
+            engine: 3000
+            frame: 2500
+    suits:
+        price:
+            L0: 1000
+            L1: 2000
+            L2: 3000
+            L3: 4000
+            L4: 5000
+        L0:
+           - "Gold Chestplate"
+           - "Gold Leggings"
+           - "Gold Boots"
+        L1:
+           - "Chainmail Chestplate"
+           - "Chainmail Leggings"
+           - "Chainmail Boots"
+        L2:
+           - "Iron Chestplate"
+           - "Iron Leggings"
+           - "Iron Boots"
+        L3:
+           - "Diamond Chestplate"
+           - "Diamond Leggings"
+           - "Diamond Boots"
+        L4:
+           - "Leather Chestplate"
+           - "Leather Leggings"
+           - "Leather Boots"
+    particletrail:
+        - "0,2000,399,0,Crit"
+        - "1,2000,399,0,Magic Crit"
+        - "2,2000,1,0,Cloud"
+        - "3,2000,378,0,Drip Lava"
+        - "4,2000,8,0,Drip Water"
+        - "5,2000,401,0,Fireworks Spark"
+        - "6,2000,377,0,Flame"
+        - "7,2000,260,0,Hearts"
+        - "8,2000,384,0,TownAura"
+        - "9,2000,10,0,Lava"
+        - "10,2000,25,0,Noteblock"
+        - "11,2000,90,0,Portal"
+        - "12,2000,331,0,Redstone"
+        - "13,2000,341,0,Slime"
+        - "14,2000,373,16392,SpellWitch"
+        - "15,2000,373,16394,Spell"
+    skins:
+        - "0,2000,3,2,Blue Steel"
+        - "1,4000,23,0,Glow"
+        - "2,5000,27,0,Violet"
+        - "3,5000,58,0,Brown"
+        - "4,5000,61,0,Fire"
+        - "5,5000,66,0,Phantom"
+        - "6,5000,84,0,Green"
+        - "7,5000,110,0,Black"
+        - "8,5000,116,0,Sky Blue"
+        - "9,5000,120,0,Yellow"
+        - "10,5000,145,1,Navy Blue"
+        - "11,5000,145,2,Phantom v2"
+        - "12,5000,145,0,Verdant"
+        - "13,5000,157,0,Light Brown"
+        - "14,5000,158,0,Coffee"
+    helmets:
+        - "0,2000,6,0,Black Red"
+        - "1,4000,6,1,Gold Darkgreen"
+        - "2,5000,6,2,Pink Floyd"
+        - "3,5000,6,3,Pink Sky-Blue"
+        - "4,5000,6,4,White Black"
+        - "5,5000,6,5,Gold Green"
+        - "6,5000,35,6,Snow Yellow"
+        - "7,15000,38,4,Dark Sun"
+        - "8,5000,38,5,Celestial"
+        - "9,5000,171,9,Purple White"
+        - "10,5000,171,6,Red Eyes"
+        - "11,5000,171,3,Divine Gold"
+        - "12,5000,171,11,Navy Blue Racer"
+        - "13,5000,171,12,Yellow Racer"
+        - "14,5000,38,6,Dark Ice"
+        - "15,5000,171,2,Divine Green"
+        - "16,5000,38,7,Dark Strawberry"
+        - "17,5000,170,0,Green Headphones"
+    horns:
+        - "0,5000,3,2,Horn 1,a"
+        - "1,5000,3,2,Horn 2,b"
+        - "2,5000,3,2,Horn 3,c"
+        - "3,5000,3,2,Horn 4,d"
+        - "4,5000,3,2,Horn 5,e"
+        - "5,5000,3,2,Horn 6,f"
+        - "6,5000,3,2,Horn 7,g"
+        - "7,5000,3,2,Horn 8,h"
+        - "8,5000,3,2,Horn 9,i"
+        - "9,5000,3,2,Horn 10,j"
+        - "10,5000,3,2,Horn 11,k"
+       
+GameConfig:
+    shop: "MINEULTRA.COM/SHOP"
+    web: " Turbo Kart Racers "
+    url: "www.spigotmc.org"
+    buycommand: "pex user %name add %kitperm"
+    timelimit: 3200L
+    maxplayers: 32
+    minplayers: 2
+    starting: "&f&lStarting &a&l%s"
+    start: "&a&lGood Game!"
+    progress: "&f&lIn progress"
+    waiting: "&a&lWaiting for Players.."
+    max: "&eMax Players"
+    min: "&eMin Players"
+    total: "&a&lPlayers"
+    coins: "&a&lCoins"
+    bungeelobby: "bblobby"
+    games:
+       - TurboRacers
+stats:
+    host: "127.0.0.1"
+    port: "3306"
+    db: "stats"
+    user: "root"
+    pwd: "blatter"
+    table: "statistics"
+ranks:
+    - "&a&lVIP,mineultra.vip"
+    - "&b&lULTRA,mineultra.ultra"
+    - "&a&lYT,mineultra.youtube"
+    - "&5&lMOD,mineultra.moderator"
+    - "&a&lADMIN,mineultra.admin"
+    - "&c&lOWNER,mineultra.owner"
+messages:
+    wait: "Wait..."
+    svfull: "Server FULL > Buy ULTRA at MINEULTRA.COM"
+    spec: "&f&l You are out of the game &6&lDONT QUIT&f&l!"
+    spec2: "&f&lThe next game will start soon..."
+    resp: "&f&lRespawning in &c&l%s &a&lseconds"
+    alreadyin: "&f&lAlready in %s."
+    queue: "&a&lYou are %pos in %s &b&lteam"
+    insuf: "&c&lInsufficient Coins, &e&lyou need %s"
+    insuf2: "&a&lBuy more in mineultra.com"
+    buyed: "&a&lBuyed sucessfully &c&l%kit &a&lfor %s"
+    prebuy: "&a&lClick again to buy this kit for %s"
+    changed: "You changed of team with"
+    afk: "You will be kicked for being AFK!"
+    join: "&a[&e&l+&a]&7 %s"
+    joinvip: "&a[&e&l+&a] &b&l%s &a&l:)"
+    quit: "&9[&c&l-&9]&7 %s"
+    quitvip: "&9[&c&l-&9]&7 %s &c&l);"
+motd:
+   stateonly: true;
+   starting: "&a&lStarting in %s"
+   recruiting: "&a&lRecruiting.."
+   inprogress: "&f&lIn progress"
+titles:
+    death: "You where killed by"
+vip:
+    name: "VIP"
+scoreboard:
+    border1: "-------&a-------"
+    border2: "-------&e-------"
+    border3: "-------&c-------"
+    map: "&a&lMap:"
+kits:
+    knight:
+        name: "Knight"
+        price: 0
+        desc:
+          - "The less common of the warriors"
+        perks:
+          - "null"
+    archer:
+        name: "Archer"
+        price: 1000
+        desc:
+          - "Bet the enemys with your bow"
+          - "and kill them"
+        perks:
+          - "Ropped Arrow"
+    flame:
+        name: "Flame"
+        price: 3000
+        desc:
+          - "A warrior in the fight"
+        perks:
+          - "Flame Dash"
+          - "Inferno"
+    monster:
+        name: "Monster"
+        price: 3000
+        desc:
+          - "An assassin without heart"
+        perks:
+          - "Speed"
+          - "Food"
+tips:
+    - "Compete versus the best builders"
+    - "be fast, or you will not finish at time!"
+    - "open your inventory, to pickup blocks from creative"
+mapconfig:
+    folder: "maps/%game"
+kitprices:
+    knight: 0
+    archer: 1000
+    flame: 1500
+    monster: 3000
+    spider: 3000
+lobby:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -74
+kit:
+    spawnX: 27
+    spawnY: 63
+    spawnZ: -86
+team:
+    spawnX: 28
+    spawnY: 64
+    spawnZ: -60
+    
+Olympus:
+  map:
+    afterlaps: -33,22,69
+    pos1: -72,74,233
+    pos2: -72,73,235
+    pos3: -72,72,231
+    posother: -75,72,232
+    L0: -36,17,57
+    L1: -48,17,57
+    L2: -55,17,58
+    L3: -60,17,58
+    L4: -64,17,58
+    L5: -69,17,58
+    L6: -75,18,58
+    L7: -82,21,58
+    L8: -95,21,56
+    L9: -102,17,56
+    L10: -109,17,56
+    L11: -118,17,56
+    L12: -128,17,56
+    L13: -138,17,56
+    L14: -147,18,58
+    L15: -158,21,63
+    L16: -167,27,90
+    L17: -161,28,109
+    L18: -144,28,114
+    L19: -129,28,100:-117,28,86:-107,28,80:-98,28,83
+    L20: -97,28,99
+    L21: -100,30,118
+    L22: -100,32,132
+    L23: -93,32,144:-107,32,151
+    L24: -103,32,157
+    L25: -98,32,169
+    L26: -100,35,177
+    L27: -99,35,184
+    L28: -99,35,193
+    L29: -99,37,201
+    L30: -99,37,213
+    L31: -100,38,227
+    L32: -105,38,235
+    L33: -113,38,238
+    L34: -122,38,238
+    L35: -131,38,237
+    L36: -139,38,235
+    L37: -146,38,227
+    L38: -148,40,216
+    L39: -148,43,206
+    L40: -147,44,196
+    L41: -140,44,187
+    L42: -127,45,184
+    L43: -120,45,184
+    L44: -114,47,184
+    L45: -105,49,184
+    L46: -95,49,184
+    L47: -81,44,184
+    L48: -75,44,184
+    L49: -68,44,184
+    L50: -60,44,184:-60,44,175:-61,44,192
+    L51: -61,44,206:-60,44,163
+    L52: -62,44,221:-64,44,149
+    L53: -53,44,242:-54,44,131
+    L54: -39,44,131:-39,44,240
+    L55: -28,44,235:-24,44,139
+    L56: -19,44,151:-18,44,219
+    L57: -18,44,211:-18,44,161
+    L58: -18,45,175:-18,45,196
+    L59: -15,44,186
+    L60: -5,44,185
+    L61: 6,29,185
+    L62: 10,3,185
+    L63: 22,4,183
+    L64: 36,4,182
+    L65: 55,4,184
+    L66: 61,4,175
+    L67: 66,4,166
+    L68: 75,4,159
+    L69: 84,4,162
+    L70: 88,4,171
+    L71: 91,6,183
+    L72: 96,8,193
+    L73: 104,9,200
+    L74: 114,11,203
+    L75: 123,12,200
+    L76: 130,15,194
+    L77: 141,15,186
+    L78: 147,12,180
+    L79: 155,11,171
+    L80: 147,11,166:164,11,183
+    L81: 181,11,190:138,11,140
+    L82: 157,11,136:205,11,161
+    L83: 197,11,148
+    L84: 184,10,131
+    L85: 192,10,120
+    L86: 188,4,107
+    L87: 165,3,94:183,4,70
+    L88: 156,4,70:143,4,80:162,4,57
+    L89: 148,4,47:116,4,67:133,4,56
+    L90: 131,4,36:113,3,51
+    L91: 102,4,40:97,4,56
+    L92: 85,4,63:78,4,40
+    L93: 62,4,40:72,5,64
+    L94: 47,4,69:30,6,50
+    L95: 14,10,54:7,11,77
+    L96: -3,14,68
+    L97: -15,16,60
+    L98: -23,17,58
+    L99: -30,17,58
+  coins:
+    L0: -36,17,57
+    L1: -48,17,57
+    L2: -55,17,58
+    L3: -60,17,58
+    L4: -64,17,58
+    L5: -69,17,58
+    L6: -75,18,58
+    L7: -82,21,58
+    L8: -95,21,56
+    L9: -102,17,56
+    L10: -109,17,56
+    L11: -118,17,56
+    L12: -128,17,56
+    L13: -138,17,56
+    L14: -147,18,58
+    L15: -158,21,63
+    L16: -167,27,90
+    L17: -161,28,109
+    L18: -144,28,114
+    L19: -129,28,100
+    L20: -97,28,99
+    L21: -100,30,118
+    L22: -100,32,132
+    L23: -93,32,144
+    L24: -103,32,157
+    L25: -98,32,169
+    L26: -100,35,177
+    L27: -99,35,184
+    L28: -99,35,193
+    L29: -99,37,201
+    L30: -99,37,213
+    L31: -100,38,227
+    L32: -105,38,235
+    L33: -113,38,238
+    L34: -122,38,238
+    L35: -131,38,237
+    L36: -139,38,235
+    L37: -146,38,227
+    L38: -148,40,216
+    L39: -148,43,206
+    L40: -147,44,196
+    L41: -140,44,187
+    L42: -127,45,184
+    L43: -120,45,184
+    L44: -114,47,184
+    L45: -105,49,184
+    L46: -95,49,184
+    L47: -81,44,184
+    L48: -75,44,184
+    L49: -68,44,184
+    L50: -60,44,184
+    L51: -61,44,206
+    L52: -62,44,221
+    L53: -53,44,242
+    L54: -39,44,131
+    L55: -28,44,235
+    L56: -19,44,151
+    L57: -18,44,211
+    L58: -18,45,175
+    L59: -15,44,186
+    L60: -5,44,185
+    L61: 6,29,185
+    L62: 10,3,185
+    L63: 22,4,183
+    L64: 36,4,182
+    L65: 55,4,184
+    L66: 61,4,175
+    L67: 66,4,166
+    L68: 75,4,159
+    L69: 84,4,162
+    L70: 88,4,171
+    L71: 91,6,183
+    L72: 96,8,193
+    L73: 104,9,200
+    L74: 114,11,203
+    L75: 123,12,200
+    L76: 130,15,194
+    L77: 141,15,186
+    L78: 147,12,180
+    L79: 155,11,171
+    L80: 147,11,166
+    L81: 181,11,190
+    L82: 157,11,136
+    L83: 197,11,148
+    L84: 184,10,131
+    L85: 192,10,120
+    L86: 188,4,107
+    L87: 165,3,94
+    L88: 156,4,70
+    L89: 148,4,47
+    L90: 131,4,36
+    L91: 102,4,40
+    L92: 85,4,63
+    L93: 62,4,40
+    L94: 47,4,69
+    L95: 14,10,54
+    L96: -3,14,68
+    L97: -15,16,60
+    L98: -23,17,58
+    L99: -30,17,58
+  boxs:
+    L0: -36,17,57
+    L1: -48,17,57
+    L2: -55,17,58
+    L3: -60,17,58
+    L4: -64,17,58
+    L5: -69,17,58
+    L6: -75,18,58
+    L7: -82,21,58
+    L8: -95,21,56
+    L9: -102,17,56
+    L10: -109,17,56
+    L11: -118,17,56
+    L12: -128,17,56
+    L13: -138,17,56
+    L14: -147,18,58
+    L15: -158,21,63
+    L16: -167,27,90
+    L17: -161,28,109
+    L18: -144,28,114
+    L19: -129,28,100
+    L20: -97,28,99
+    L21: -100,30,118
+    L22: -100,32,132
+    L23: -93,32,144
+    L24: -103,32,157
+    L25: -98,32,169
+    L26: -100,35,177
+    L27: -99,35,184
+    L28: -99,35,193
+    L29: -99,37,201
+    L30: -99,37,213
+    L31: -100,38,227
+    L32: -105,38,235
+    L33: -113,38,238
+    L34: -122,38,238
+    L35: -131,38,237
+    L36: -139,38,235
+    L37: -146,38,227
+    L38: -148,40,216
+    L39: -148,43,206
+    L40: -147,44,196
+    L41: -140,44,187
+    L42: -127,45,184
+    L43: -120,45,184
+    L44: -114,47,184
+    L45: -105,49,184
+    L46: -95,49,184
+    L47: -81,44,184
+    L48: -75,44,184
+    L49: -68,44,184
+    L50: -60,44,184
+    L51: -61,44,206
+    L52: -62,44,221
+    L53: -53,44,242
+    L54: -39,44,131
+    L55: -28,44,235
+    L56: -19,44,151
+    L57: -18,44,211
+    L58: -18,45,175
+    L59: -15,44,186
+    L60: -5,44,185
+    L61: 6,29,185
+    L62: 10,3,185
+    L63: 22,4,183
+    L64: 36,4,182
+    L65: 55,4,184
+    L66: 61,4,175
+    L67: 66,4,166
+    L68: 75,4,159
+    L69: 84,4,162
+    L70: 88,4,171
+    L71: 91,6,183
+    L72: 96,8,193
+    L73: 104,9,200
+    L74: 114,11,203
+    L75: 123,12,200
+    L76: 130,15,194
+    L77: 141,15,186
+    L78: 147,12,180
+    L79: 155,11,171
+    L80: 147,11,166
+    L81: 181,11,190
+    L82: 157,11,136
+    L83: 197,11,148
+    L84: 184,10,131
+    L85: 192,10,120
+    L86: 188,4,107
+    L87: 165,3,94
+    L88: 156,4,70
+    L89: 148,4,47
+    L90: 131,4,36
+    L91: 102,4,40
+    L92: 85,4,63
+    L93: 62,4,40
+    L94: 47,4,69
+    L95: 14,10,54
+    L96: -3,14,68
+    L97: -15,16,60
+    L98: -23,17,58
+    L99: -30,17,58

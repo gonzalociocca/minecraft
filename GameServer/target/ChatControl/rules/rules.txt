@@ -1,0 +1,59 @@
+# -------------------------------------------------------------------------------
+# This is the implementation of ChatControl's rule engine codenamed ChatCeaser
+#
+# It accepts following operators (The <> is the parameter you'll specify)
+# match <regex> (A valid regular expression to match player's message.)
+# id <number/string> (Assign an id/name to the rule. Used in messages and handlers.)
+# ignore string <string/regex> (If the message matches the given string it will be ignored.)
+# ignore event <chat/commands/signs> (If the rule triggers on specified event it will be ignored.)
+# ignore perm <permission> (A permission to bypass the rule.)
+# ignore gamemode <survival/creative/adventure/spectator/0/1/2/3> (Gamemodes to be ignored. Separate by | to add multiple values.)
+# before strip <regex> (A regular expression used to strip specified characters before the message is checked.)
+# before replace <regex> with <message> (A regular expression to replace characters with other characters before the message check.)
+# then replace <replacement|replacement2> (A string that replaces only the part of the checked message that matches the match.)
+#                                         (Chosen randomly from the messages divided by |)
+# then rewrite <message|message2> (A message that replaces the entire checked message.)
+#                                         (Chosen randomly from the messages divided by |)
+# then deny (Cancel the player's message from appearing. See settinsg.yml for configuration on specific events.)
+# then console <command|command2|command3> (Commands to execute as the console. Use %player to get player's name. Split multiple commands by |)
+# then warn <message> (A message sent to the player.)
+# then kick <optionalResaon> (Kick the player with an optional message.)
+# then notify <permission> <message> (Send a message to all players with the permission.)
+# then fine <amount> (If Vault is installed - take specified amount of money from the player.)
+# then log (Caught message will be printed in console and saved in logs/rules.txt)
+# handle as <handler_name> (Launch actions specified in handlers.yml. NOTICE: This must be as a last operator in the rule!)
+#
+# Valid variables:
+# %player (Player's name. Without prefix and suffix.)
+# %world (Player's world.)
+#
+# Supports color codes with '&' character.
+# Accepts unicode characters when saved in UTF-8 encoding (tested on Notepad++).
+# -------------------------------------------------------------------------------
+
+# IP filter. 
+# (Notice the operator strip which removes specified characters BEFORE the message is checked.)
+match \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+id 1
+before replace dot|\[|\]|\{|\}|\(|\) with .
+before strip [\(\[\]\)]
+handle as advertisement
+
+# Domain/URL filter.
+# You can add new domains by inserting '|your_domain' after '|io' (e.g. '|io|pl' for also blocking '.pl' domains)
+match [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
+# If you want to whitelist your server, it is only necessary to add it once in format:
+# website.domain (example: procraft.com)
+# To add more domains simply add them after the last one and divide by |
+ignore string minecraft:|youtube.com|imgur.com
+id 2
+before replace dot|\[|\]|\{|\}|\(|\) with .
+before strip [\(\[\]\)]
+handle as advertisement
+
+# Swastika filter
+match \u534D|\u5350
+then kick &cDisallowed characters in the chat
+then notify chatcontrol.notify.rulesalert &8[&7Swastika&8] &7%player: &f%message
+then deny
+

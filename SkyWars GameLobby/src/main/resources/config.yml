@@ -1,0 +1,55 @@
+Menu:
+   items1:
+    S0:
+      item: "276,1,0,name:&b&l> > &c&lSurvival/Factions &b&l< <,lore:&cNuestro super,lore:&cservidor de survival,lore:&cy faction`s,ARROW_INFINITE:1"
+      server: "endworld"
+    S1:
+      item: "2,1,0,name:&b&l> > &a&lSkyBlock &b&l< <,lore:&f      &r,lore:&e&l- Tienda de objetos,lore:&e&l- Arenas PvP,ARROW_INFINITE:1"
+      server: "skyblock"
+    S2:
+      item: "283,1,0,name:&b&l> > &c&lRex &b&l< <,lore:&f      &r,lore:&e&l- Una especie de server,lore:&e&lkitpvp donde te armas,ARROW_INFINITE:1"
+      server: "rex"
+    S3:
+      item: "101,1,0,name:&b&l> > &c&lOPPrison &b&l< <,lore:&f      &r,lore:&e&l- More than 50Mines!,ARROW_INFINITE:1"
+      server: "prison"
+   items2:
+    S0:
+      item: "58,1,0,name:&b&l> > &5&lArcade: &aNew BuildBattle &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&l- Kits y mucho mas,ARROW_INFINITE:1"
+      server: "arcade"
+    S1:
+      item: "327,1,0,name:&b&l> > &a&lDestruye el Nexus #1 &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&l- Kits y mucho mas,ARROW_INFINITE:1"
+      server: "nexus"
+    S2:
+      item: "327,1,0,name:&b&l> > &a&lBlockHunt #1 &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&l- Kits y mucho mas,ARROW_INFINITE:1"
+      server: "blockhunt"
+    S3:
+      item: "327,1,0,name:&b&l> > &c&lZombiZ! #1 &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&l- Kits y mucho mas,ARROW_INFINITE:1"
+      server: "zombi"
+    S4:
+      item: "327,1,0,name:&b&l> > &a&lSuperSpleef #1 &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&l- Kits y mucho mas,ARROW_INFINITE:1"
+      server: "spleef"
+    S5:
+      item: "327,1,0,name:&b&l> > &a&lSuper&c&lSmashBros! #1 &b&l< <,lore:&f      &r,lore:&e&l- Exclusivo de MineUltra,lore:&e&lNuestro super servidores de Smash,ARROW_INFINITE:1"
+      server: "smash"
+   signs:
+    S0:
+      location: "world,-296,73,-27:world,-304,73,-27"
+      server: "192.99.0.145,27914,&c▶&a&lFactions,endworld"
+    S1:
+      location: "world,-346,73,56:world,-346,73,48"
+      server: "192.99.8.40,27434,&c▶&a&lREX,rex"
+    S2:
+      location: "world,-254,73,48:world,-254,73,56"
+      server: "192.99.0.145,29512,&c▶&a&lSkyBlock,skyblock"
+    S3:
+      location: "world,-254,73,15:world,-254,73,23"
+      server: "192.99.8.40,12223,&a▶&b&lNEXUS,nexus"
+    S4:
+      location: "world,-346,73,15:world,-346,73,23"
+      server: "192.99.8.40,54120,&a▶&b&lArcade,arcade"
+    S5:
+      location: "world,-263,73,66:world,-271,73,66"
+      server: "192.99.8.40,23431,&a▶&c&lSPLEEF,spleef"
+    S6:
+      location: "world,-296,73,66:world,-304,73,66"
+      server: "192.99.8.40,13045,&a&lZombi▶&4&lZ,zombi"

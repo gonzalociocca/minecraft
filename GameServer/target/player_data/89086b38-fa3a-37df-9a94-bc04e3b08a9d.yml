@@ -1,0 +1,14 @@
+wins: 4
+kills: 19
+deaths: 14
+gamesPlayed: 18
+score: 137
+blocksPlaced: 608
+killDeath: 1.3571428571428572
+glasscolor: normal
+effect: clouds
+traileffect: normal
+name: PvP_Comboz
+balance: 0
+permissions:
+- swr.effect.clouds
