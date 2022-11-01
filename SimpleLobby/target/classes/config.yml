@@ -1,0 +1,30 @@
+Menu:
+   items1:
+    S0:
+      item: "276,1,0,name:&b&l> > &c&lSurvival/Factions &b&l< <,lore:&cNuestro super,lore:&cservidor de survival,lore:&cy faction`s,ARROW_INFINITE:1"
+      server: "endworld"
+   signs:
+    S0:
+      location: "world,-236,25,77:world,-236,25,-1"
+      server: "192.99.8.40,54124,&c&a&l>SW 1,sw1"
+    S1:
+      location: "world,-237,25,77:world,-237,25,-1"
+      server: "192.99.8.40,54125,&c&a&l>SW 2,sw2"
+    S2:
+      location: "world,-238,25,77:world,-238,25,-1"
+      server: "192.99.8.40,54126,&c&a&l>SW 3,sw3"
+    S3:
+      location: "world,-239,25,77:world,-239,25,-1"
+      server: "192.99.8.40,54127,&c&a&l>SW 4,sw4"
+    S4:
+      location: "world,-240,25,77:world,-240,25,-1"
+      server: "192.99.8.40,12390,&c&a&l>BB 1,bb1"
+    S5:
+      location: "world,-241,25,77:world,-241,25,-1"
+      server: "192.99.8.40,12391,&c&a&l>BB 2,bb2"
+    S6:
+      location: "world,-242,25,77:world,-242,25,-1"
+      server: "192.99.8.40,12392,&c&a&l>BB 3,bb3"
+    S7:
+      location: "world,-243,25,77:world,-243,25,-1"
+      server: "192.99.8.40,12393,&c&a&l>BB 4,bb4"

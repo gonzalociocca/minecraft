@@ -1,0 +1,11 @@
+serverid: 0
+MySQL:
+    host: "127.0.0.1"
+    port: "3306"
+    db: "pagos"
+    user: "root"
+    pwd: "trabek123-"
+    table: "serverinfo"
+    column: "count"
+    column2: "name"
+bungeeamount: 3

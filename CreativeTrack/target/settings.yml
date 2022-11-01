@@ -1,0 +1,157 @@
+version: 3.3.1
+platform: Bukkit
+clear:
+  'on':
+    ban: false
+  auto:
+    calibration:
+      variety: 0
+      changes_sd: 1
+      faces: 0
+      data_sd: 0
+      air: 0
+      air_sd: 0
+      faces_sd: 0
+      data: 0
+      variety_sd: 0
+      changes: 1
+    confirmation: false
+    days: 60
+    clear-interval-seconds: 120
+    threshold: 1
+    enabled: true
+  fastmode: false
+confirmation:
+  clear: true
+  delete: true
+  setowner: true
+  unlink: true
+UUID:
+  offline: true
+  force-lowercase: false
+cache:
+  permissions: true
+  ratings: true
+chunk-processor:
+  auto-trim: false
+  auto-unload: true
+  enabled: false
+  max-blockstates: 4096
+  experimental-fast-async-worldedit: false
+  max-entities: 256
+  disable-physics: false
+worldedit:
+  require-selection-in-mask: true
+  max-volume: 500000
+  enable-for-helpers: false
+  queue-commands: false
+  max-iterations: 1000
+  blacklist:
+  - cs
+  - .s
+  - restore
+  - snapshot
+  - delchunks
+  - listchunks
+schematics:
+  save_path: plugins/PlotSquared/schematics
+web:
+  url: http://empcraft.com/plots/
+  server-ip: your.ip.here
+approval:
+  done:
+    required-for-download: false
+    restrict-building: false
+    counts-towards-limit: false
+  ratings:
+    require-done: false
+chat:
+  fancy: true
+console:
+  color: true
+kill_road_mobs: false
+merge:
+  remove-terrain: true
+plotme-alias: true
+plotme-convert:
+  enabled: false
+  cache-uuids: false
+global_limit: false
+update-notifications: true
+metrics: true
+comments:
+  notifications:
+    enabled: false
+protection:
+  redstone:
+    disable-unoccupied: false
+    disable-offline: false
+teleport:
+  on_login: false
+  delay: 0
+claim:
+  max-auto-area: 4
+uuid:
+  use_sqluuidhandler: false
+  read-from-disk: false
+max_plots: 127
+bo3:
+  save_path: BO3
+kill_road_vehicles: false
+debug: true
+clusters:
+  enabled: false
+titles: false
+worlds:
+  plotworld:
+    road:
+      width: 7
+      block: '155:1'
+      height: 64
+    plot:
+      size: 22
+      floor:
+      - '2'
+      filling:
+      - '3'
+      height: 64
+      biome: FOREST
+      auto_merge: false
+      bedrock: true
+      create_signs: true
+    wall:
+      block: '44:6'
+      height: 64
+      filling: '1:0'
+      block_claimed: '44:1'
+    home:
+      default: side
+      allow-nonmembers: false
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    economy:
+      prices:
+        merge: 100.0
+        sell: 100.0
+        claim: 100.0
+      use: false
+    chat:
+      enabled: false
+    limits:
+      max-members: 128
+    world:
+      max_height: 256
+      gamemode: creative
+      min_height: 1
+      border: false
+    event:
+      spawn:
+        egg: false
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    flags: {}
+    mob_spawner_spawning: false

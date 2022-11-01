@@ -1,0 +1,8 @@
+name: Mercado
+main: me.gonzalociocca.minelevel.mercado.Main
+version: 1
+commands:
+   mercado:
+      description: Comandos del Mercado.
+      usage: /<command>
+      aliases: [tienda]
